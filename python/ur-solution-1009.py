@@ -1,0 +1,5 @@
+name=str(input())
+money=float(input())
+product_sold=float(input())
+total=money+((product_sold*15)/100)
+print("TOTAL = R$ %.2f"%total,end="\n")
